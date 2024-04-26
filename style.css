@@ -1,0 +1,79 @@
+/* Write some CSS below */
+.card-grey{
+    background-color: rgb(237, 237, 234);
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    width:900px;
+    height: 150px;
+    margin: 40px 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+#introduction {
+    width: 900px;
+    height: 450px;
+    border-color: blueviolet;
+    border-style: double;
+}
+.container{
+ width: 900px;
+ margin: 20px auto;
+}
+.img-circle{
+    border-radius: 50%;
+    width: 200px;
+    height : 200px;
+    object-fit: cover;
+}
+.btn-blue{
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    padding: 15px 25px;
+    box-shadow: 10px 10px 0 rgb(253, 255, 253);
+transition: 0,5s;
+display: inline-block;
+}
+.btn-blue:hover {
+    transform: translate(10px 10px);
+    box-shadow: 0px 0px 0px rgb(253, 255, 253); 
+    background-color: green;
+    opacity: 0.7;
+}
+#introduction p {
+    margin-bottom: 30px;
+}
+#introduction  {
+    font-family: "Lora", serif;
+}
+#introduction h1 {
+    color: blueviolet;
+}
+.btn-blue:hover {
+    background-color: blueviolet;
+    opacity: 0.7;
+}
+.list-inline{
+    list-style: none;
+    padding-left: 0;
+}
+.list-inline li {
+    display: inline;
+}
+.list-inline li i{
+   font-size: 60px;
+   color: black;
+   margin: 0 50px;
+}
+.list-inline i:hover{
+   opacity : 0.7;
+}
+#list {
+    width: 900px;
+    height:90px;
+}
+#list h2 {
+    margin: 5px;
+}
